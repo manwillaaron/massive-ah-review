@@ -1,13 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import axios from 'axios'
+import Routes from './Routes'
 
-function App() {
-  return (
+class App extends React.Component {
+  constructor(){
+    super()
+    this.state ={
+      expenses: []
+    }
+  }
+
+  componentDidMount(){
+    axios.get('/api/expenses').then(res=> {
+      this.setState({
+        expenses: res.data
+      })
+    })
+  }
+  
+  render(){    
+    return (
     <div className="App">
-   Hello World!
+   <Routes expenses={this.state.expenses} />
     </div>
   );
+}
 }
 
 export default App;

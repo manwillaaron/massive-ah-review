@@ -297,5 +297,4 @@ VALUES
   (373.47, 'Jamia', 290, 'Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.'),
   (162.98, 'Voonyx', 124, 'Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.'),
   (257.39, 'Devpulse', 329, 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.'),
-  (792.29, 'Jabbersphere', 49, 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.'),
- 
+  (792.29, 'Jabbersphere', 49, 'Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.')

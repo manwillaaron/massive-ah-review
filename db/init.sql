@@ -3,5 +3,6 @@ create table expenses (
     amount money,
     store varchar (20),
     day_of_year int.
-    description VARCHAR
+    description VARCHAR,
+    year text
 );
